@@ -1,0 +1,37 @@
+---
+title: "Recomendaciones"
+---
+
+# Propósito del Modelo
+
+El propósito de un modelo de predictivo por computadora en agricultura es clasificar hojas de cultivos según su estado de salud, por ejemplo, diferenciando entre hojas sanas y enfermas. Esta clasificación permite identificar de manera temprana problemas como plagas, enfermedades o daños físicos, facilitando la toma de decisiones en la gestión de cultivos y mejorando la productividad en la agricultura de precisión.
+
+# Técnica de Anotación Usada
+
+Para llevar a cabo el etiquetado de imágenes, se puede utilizar herramientas como Label Studio. Estas herramientas permiten anotar datos de manera eficiente mediante:
+•	Polígonos: Para capturar los contornos exactos de las hojas y sus características.
+•	Cuadros delimitadores (Bounding Boxes): Para identificar y clasificar rápidamente regiones de interés, como hojas afectadas o sanas.
+Estas técnicas aseguran que los datos etiquetados sean precisos y adecuados para entrenar modelos de detección y segmentación.
+
+
+# Mejoras en el Etiquetado
+
+Para obtener un modelo más robusto y preciso, se podrían aplicar las siguientes mejoras:
+**1.	Ampliar el conjunto de datos:**
+o	Incluir un mayor número de imágenes con diferentes condiciones de iluminación, ángulos y tamaños de hojas.
+
+o	Incorporar hojas afectadas por diversas enfermedades y plagas para mejorar la capacidad de generalización del modelo.
+
+**2.	Anotar características adicionales:**
+o	Texturas: Capturar patrones específicos en la superficie de las hojas, como manchas o rugosidades.
+
+o	Bordes: Delimitar los contornos con mayor precisión para evaluar irregularidades o deformaciones.
+
+o	Tipos de daños: Etiquetar daños específicos causados por plagas o enfermedades (manchas, necrosis, perforaciones, etc.).
+
+Estas mejoras permitirían al modelo detectar no solo el estado de salud general de las hojas, sino también patrones específicos que ayuden a identificar la causa del problema.
+
+
+# Finalidad
+
+La finalidad de un modelo de predictivo en agricultura es optimizar la gestión de cultivos mediante el análisis automatizado de imágenes, permitiendo una toma de decisiones más eficiente y precisa. Este tipo de modelo se utiliza para detectar plagas y enfermedades, clasificar la salud de las plantas, y optimizar el uso de recursos como pesticidas y fertilizantes. Además, facilita la monitorización continua de grandes áreas agrícolas, mejora la productividad y contribuye a una agricultura más sostenible al reducir costos operativos y el impacto ambiental. En resumen, su propósito es aumentar la eficiencia en el manejo de cultivos y garantizar la seguridad alimentaria.

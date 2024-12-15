@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción – PAD</title>
+<title>Recomendaciones – Modelos Predictivos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">PAD</span>
+    <span class="navbar-title">Modelos Predictivos</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Introducción</span></a>
   </li>  
   <li class="nav-item">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Aplicación Practico</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Reco.html"> 
+    <a class="nav-link active" href="./Reco.html" aria-current="page"> 
 <span class="menu-text">Recomendaciones</span></a>
   </li>  
   <li class="nav-item">
@@ -128,15 +128,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#propósito-del-modelo" id="toc-propósito-del-modelo" class="nav-link active" data-scroll-target="#propósito-del-modelo">Propósito del Modelo</a></li>
+  <li><a href="#técnica-de-anotación-usada" id="toc-técnica-de-anotación-usada" class="nav-link" data-scroll-target="#técnica-de-anotación-usada">Técnica de Anotación Usada</a></li>
+  <li><a href="#mejoras-en-el-etiquetado" id="toc-mejoras-en-el-etiquetado" class="nav-link" data-scroll-target="#mejoras-en-el-etiquetado">Mejoras en el Etiquetado</a></li>
+  <li><a href="#finalidad" id="toc-finalidad" class="nav-link" data-scroll-target="#finalidad">Finalidad</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introducción</h1>
+<h1 class="title">Recomendaciones</h1>
 </div>
 
 
@@ -153,9 +162,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Los sistemas inteligentes están transformando la agricultura moderna al integrar tecnologías avanzadas para el análisis de datos y la toma de decisiones. Herramientas como Anaconda permiten gestionar entornos de desarrollo y bibliotecas especializadas, facilitando la implementación de modelos predictivos y aplicaciones como Label Studio. Esto no solo mejora la eficiencia en el manejo de cultivos, sino que también promueve prácticas agrícolas más sostenibles y precisas, adaptadas a las necesidades actuales del sector.</p>
+<section id="propósito-del-modelo" class="level1">
+<h1>Propósito del Modelo</h1>
+<p>El propósito de un modelo de predictivo por computadora en agricultura es clasificar hojas de cultivos según su estado de salud, por ejemplo, diferenciando entre hojas sanas y enfermas. Esta clasificación permite identificar de manera temprana problemas como plagas, enfermedades o daños físicos, facilitando la toma de decisiones en la gestión de cultivos y mejorando la productividad en la agricultura de precisión.</p>
+</section>
+<section id="técnica-de-anotación-usada" class="level1">
+<h1>Técnica de Anotación Usada</h1>
+<p>Para llevar a cabo el etiquetado de imágenes, se puede utilizar herramientas como Label Studio. Estas herramientas permiten anotar datos de manera eficiente mediante: • Polígonos: Para capturar los contornos exactos de las hojas y sus características. • Cuadros delimitadores (Bounding Boxes): Para identificar y clasificar rápidamente regiones de interés, como hojas afectadas o sanas. Estas técnicas aseguran que los datos etiquetados sean precisos y adecuados para entrenar modelos de detección y segmentación.</p>
+</section>
+<section id="mejoras-en-el-etiquetado" class="level1">
+<h1>Mejoras en el Etiquetado</h1>
+<p>Para obtener un modelo más robusto y preciso, se podrían aplicar las siguientes mejoras: <strong>1. Ampliar el conjunto de datos:</strong> o Incluir un mayor número de imágenes con diferentes condiciones de iluminación, ángulos y tamaños de hojas.</p>
+<p>o Incorporar hojas afectadas por diversas enfermedades y plagas para mejorar la capacidad de generalización del modelo.</p>
+<p><strong>2. Anotar características adicionales:</strong> o Texturas: Capturar patrones específicos en la superficie de las hojas, como manchas o rugosidades.</p>
+<p>o Bordes: Delimitar los contornos con mayor precisión para evaluar irregularidades o deformaciones.</p>
+<p>o Tipos de daños: Etiquetar daños específicos causados por plagas o enfermedades (manchas, necrosis, perforaciones, etc.).</p>
+<p>Estas mejoras permitirían al modelo detectar no solo el estado de salud general de las hojas, sino también patrones específicos que ayuden a identificar la causa del problema.</p>
+</section>
+<section id="finalidad" class="level1">
+<h1>Finalidad</h1>
+<p>La finalidad de un modelo de predictivo en agricultura es optimizar la gestión de cultivos mediante el análisis automatizado de imágenes, permitiendo una toma de decisiones más eficiente y precisa. Este tipo de modelo se utiliza para detectar plagas y enfermedades, clasificar la salud de las plantas, y optimizar el uso de recursos como pesticidas y fertilizantes. Además, facilita la monitorización continua de grandes áreas agrícolas, mejora la productividad y contribuye a una agricultura más sostenible al reducir costos operativos y el impacto ambiental. En resumen, su propósito es aumentar la eficiencia en el manejo de cultivos y garantizar la seguridad alimentaria.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

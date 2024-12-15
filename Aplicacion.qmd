@@ -1,0 +1,47 @@
+---
+title: "Aplicación Practico"
+---
+
+Las anotaciones con polígonos, elegidas en el proceso de etiquetado en plataformas como Label Studio, son esenciales en proyectos donde la precisión es crucial. Entre las aplicaciones más destacadas se incluyen:
+
+**Detección y Segmentación de Objetos**: Utilizando modelos avanzados como Mask R-CNN o U-Net, las anotaciones poligonales permiten entrenar modelos que no solo detectan objetos, sino que también segmentan con precisión su contorno exacto.
+
+**Agricultura de Precisión**: En el ámbito de la ingeniería agrónoma, el uso de polígonos facilita diversas aplicaciones, tales como:
+
+-   Medición del tamaño y área de hojas para la identificación temprana de plagas o enfermedades.
+-   Análisis de la forma y estructura de hojas o frutos, mejorando la precisión en el monitoreo de cultivos.
+-   Delimitación de regiones de interés dentro de los cultivos, permitiendo una gestión más eficiente y focalizada.
+
+**Mediciones Avanzadas**: Al incorporar "monedas" como referencia de escala en las imágenes, es posible calcular con mayor exactitud el área y el perímetro de las hojas anotadas, lo que contribuye a una evaluación más precisa de su tamaño y forma.
+
+**Entrenamiento de Modelos de Segmentación**: Los datos exportados en formato COCO JSON pueden ser utilizados en frameworks de vanguardia como Detectron2, TensorFlow o PyTorch, facilitando la creación y entrenamiento de modelos de segmentación de imágenes altamente precisos.
+
+![](images/clipboard-3129471481.png){fig-align="center"}
+
+Este tipo de anotaciones es fundamental para lograr una mayor precisión en diversas áreas, particularmente en la agricultura de precisión, donde las decisiones informadas dependen de datos exactos y detallados.
+
+# Herramientas y Procesamiento de Datos 
+
+Existen diversas herramientas que permiten la anotación precisa de imágenes para tareas de detección, segmentación y clasificación. Entre las más destacadas tenemos:
+
+-   **Label Studio**: Herramienta flexible que permite anotaciones con cuadros delimitadores (bounding boxes), polígonos, líneas y puntos. Facilita la exportación de datos en formatos JSON (COCO, Pascal VOC, etc.).
+
+    ![](images/clipboard-461655019.png)
+
+-   **CVAT (Computer Vision Annotation Tool)**: Plataforma que permite anotaciones avanzadas con múltiples formatos y una interfaz fácil de usar.
+
+    ![](images/clipboard-2850168237.png)
+
+-   **Supervisely y VGG Image Annotator (VIA)**: Herramientas enfocadas en anotación poligonal, clasificación de imágenes y etiquetado masivo.
+
+    ![](images/clipboard-1689912635.png)
+
+Cada una de estas herramientas permite realizar anotaciones como:
+
+-   **Cuadros delimitadores (Bounding Boxes)**: Ideal para la detección básica de objetos.
+
+-   **Polígonos**: Permiten segmentaciones precisas, como la medición de contornos irregulares de hojas, frutas o plagas.
+
+-   **Puntos y líneas**: Utilizados en tareas de estimación de posiciones clave o en análisis estructural.
+
+![](images/clipboard-3076235058.png)

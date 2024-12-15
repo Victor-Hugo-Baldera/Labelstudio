@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción – PAD</title>
+<title>Aplicación Practico – Modelos Predictivos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">PAD</span>
+    <span class="navbar-title">Modelos Predictivos</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Introducción</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ejecución de Label Studio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Aplicacion.html"> 
+    <a class="nav-link active" href="./Aplicacion.html" aria-current="page"> 
 <span class="menu-text">Aplicación Practico</span></a>
   </li>  
   <li class="nav-item">
@@ -128,15 +128,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#herramientas-y-procesamiento-de-datos" id="toc-herramientas-y-procesamiento-de-datos" class="nav-link active" data-scroll-target="#herramientas-y-procesamiento-de-datos">Herramientas y Procesamiento de Datos</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introducción</h1>
+<h1 class="title">Aplicación Practico</h1>
 </div>
 
 
@@ -153,9 +159,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Los sistemas inteligentes están transformando la agricultura moderna al integrar tecnologías avanzadas para el análisis de datos y la toma de decisiones. Herramientas como Anaconda permiten gestionar entornos de desarrollo y bibliotecas especializadas, facilitando la implementación de modelos predictivos y aplicaciones como Label Studio. Esto no solo mejora la eficiencia en el manejo de cultivos, sino que también promueve prácticas agrícolas más sostenibles y precisas, adaptadas a las necesidades actuales del sector.</p>
+<p>Las anotaciones con polígonos, elegidas en el proceso de etiquetado en plataformas como Label Studio, son esenciales en proyectos donde la precisión es crucial. Entre las aplicaciones más destacadas se incluyen:</p>
+<p><strong>Detección y Segmentación de Objetos</strong>: Utilizando modelos avanzados como Mask R-CNN o U-Net, las anotaciones poligonales permiten entrenar modelos que no solo detectan objetos, sino que también segmentan con precisión su contorno exacto.</p>
+<p><strong>Agricultura de Precisión</strong>: En el ámbito de la ingeniería agrónoma, el uso de polígonos facilita diversas aplicaciones, tales como:</p>
+<ul>
+<li>Medición del tamaño y área de hojas para la identificación temprana de plagas o enfermedades.</li>
+<li>Análisis de la forma y estructura de hojas o frutos, mejorando la precisión en el monitoreo de cultivos.</li>
+<li>Delimitación de regiones de interés dentro de los cultivos, permitiendo una gestión más eficiente y focalizada.</li>
+</ul>
+<p><strong>Mediciones Avanzadas</strong>: Al incorporar “monedas” como referencia de escala en las imágenes, es posible calcular con mayor exactitud el área y el perímetro de las hojas anotadas, lo que contribuye a una evaluación más precisa de su tamaño y forma.</p>
+<p><strong>Entrenamiento de Modelos de Segmentación</strong>: Los datos exportados en formato COCO JSON pueden ser utilizados en frameworks de vanguardia como Detectron2, TensorFlow o PyTorch, facilitando la creación y entrenamiento de modelos de segmentación de imágenes altamente precisos.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-3129471481.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Este tipo de anotaciones es fundamental para lograr una mayor precisión en diversas áreas, particularmente en la agricultura de precisión, donde las decisiones informadas dependen de datos exactos y detallados.</p>
+<section id="herramientas-y-procesamiento-de-datos" class="level1">
+<h1>Herramientas y Procesamiento de Datos</h1>
+<p>Existen diversas herramientas que permiten la anotación precisa de imágenes para tareas de detección, segmentación y clasificación. Entre las más destacadas tenemos:</p>
+<ul>
+<li><p><strong>Label Studio</strong>: Herramienta flexible que permite anotaciones con cuadros delimitadores (bounding boxes), polígonos, líneas y puntos. Facilita la exportación de datos en formatos JSON (COCO, Pascal VOC, etc.).</p>
+<p><img src="images/clipboard-461655019.png" class="img-fluid"></p></li>
+<li><p><strong>CVAT (Computer Vision Annotation Tool)</strong>: Plataforma que permite anotaciones avanzadas con múltiples formatos y una interfaz fácil de usar.</p>
+<p><img src="images/clipboard-2850168237.png" class="img-fluid"></p></li>
+<li><p><strong>Supervisely y VGG Image Annotator (VIA)</strong>: Herramientas enfocadas en anotación poligonal, clasificación de imágenes y etiquetado masivo.</p>
+<p><img src="images/clipboard-1689912635.png" class="img-fluid"></p></li>
+</ul>
+<p>Cada una de estas herramientas permite realizar anotaciones como:</p>
+<ul>
+<li><p><strong>Cuadros delimitadores (Bounding Boxes)</strong>: Ideal para la detección básica de objetos.</p></li>
+<li><p><strong>Polígonos</strong>: Permiten segmentaciones precisas, como la medición de contornos irregulares de hojas, frutas o plagas.</p></li>
+<li><p><strong>Puntos y líneas</strong>: Utilizados en tareas de estimación de posiciones clave o en análisis estructural.</p></li>
+</ul>
+<p><img src="images/clipboard-3076235058.png" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

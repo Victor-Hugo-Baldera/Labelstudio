@@ -1,0 +1,6 @@
+---
+title: "Referencias bibliográficas"
+---
+
+HumanSignal. (2024). Descripción general de Label Studio. Label Studio Docs. https://labelstud.io/guide/get_started
+Rondón, I. (2022). ¿Qué es Anaconda? Escuela Internacional Posgrado. https://eiposgrados.com/blog-python/que-es-anaconda/ 

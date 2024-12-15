@@ -1,8 +1,15 @@
 [
   {
+    "objectID": "Refe.html",
+    "href": "Refe.html",
+    "title": "Referencias bibliográficas",
+    "section": "",
+    "text": "HumanSignal. (2024). Descripción general de Label Studio. Label Studio Docs. https://labelstud.io/guide/get_started Rondón, I. (2022). ¿Qué es Anaconda? Escuela Internacional Posgrado. https://eiposgrados.com/blog-python/que-es-anaconda/"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Intoroduccion",
+    "title": "Introducción",
     "section": "",
     "text": "Los sistemas inteligentes están transformando la agricultura moderna al integrar tecnologías avanzadas para el análisis de datos y la toma de decisiones. Herramientas como Anaconda permiten gestionar entornos de desarrollo y bibliotecas especializadas, facilitando la implementación de modelos predictivos y aplicaciones como Label Studio. Esto no solo mejora la eficiencia en el manejo de cultivos, sino que también promueve prácticas agrícolas más sostenibles y precisas, adaptadas a las necesidades actuales del sector."
   },
@@ -14,16 +21,23 @@
     "text": "Una herramienta interactiva para etiquetar imágenes de hojas y construir modelos predictivos usando técnicas avanzadas de aprendizaje automático. Optimizado con Label Studio"
   },
   {
+    "objectID": "Aplicacion.html",
+    "href": "Aplicacion.html",
+    "title": "Aplicación Practico",
+    "section": "",
+    "text": "Las anotaciones con polígonos, elegidas en el proceso de etiquetado en plataformas como Label Studio, son esenciales en proyectos donde la precisión es crucial. Entre las aplicaciones más destacadas se incluyen:\nDetección y Segmentación de Objetos: Utilizando modelos avanzados como Mask R-CNN o U-Net, las anotaciones poligonales permiten entrenar modelos que no solo detectan objetos, sino que también segmentan con precisión su contorno exacto.\nAgricultura de Precisión: En el ámbito de la ingeniería agrónoma, el uso de polígonos facilita diversas aplicaciones, tales como:\n\nMedición del tamaño y área de hojas para la identificación temprana de plagas o enfermedades.\nAnálisis de la forma y estructura de hojas o frutos, mejorando la precisión en el monitoreo de cultivos.\nDelimitación de regiones de interés dentro de los cultivos, permitiendo una gestión más eficiente y focalizada.\n\nMediciones Avanzadas: Al incorporar “monedas” como referencia de escala en las imágenes, es posible calcular con mayor exactitud el área y el perímetro de las hojas anotadas, lo que contribuye a una evaluación más precisa de su tamaño y forma.\nEntrenamiento de Modelos de Segmentación: Los datos exportados en formato COCO JSON pueden ser utilizados en frameworks de vanguardia como Detectron2, TensorFlow o PyTorch, facilitando la creación y entrenamiento de modelos de segmentación de imágenes altamente precisos.\n\n\n\n\n\nEste tipo de anotaciones es fundamental para lograr una mayor precisión en diversas áreas, particularmente en la agricultura de precisión, donde las decisiones informadas dependen de datos exactos y detallados.\n\nHerramientas y Procesamiento de Datos\nExisten diversas herramientas que permiten la anotación precisa de imágenes para tareas de detección, segmentación y clasificación. Entre las más destacadas tenemos:\n\nLabel Studio: Herramienta flexible que permite anotaciones con cuadros delimitadores (bounding boxes), polígonos, líneas y puntos. Facilita la exportación de datos en formatos JSON (COCO, Pascal VOC, etc.).\n\nCVAT (Computer Vision Annotation Tool): Plataforma que permite anotaciones avanzadas con múltiples formatos y una interfaz fácil de usar.\n\nSupervisely y VGG Image Annotator (VIA): Herramientas enfocadas en anotación poligonal, clasificación de imágenes y etiquetado masivo.\n\n\nCada una de estas herramientas permite realizar anotaciones como:\n\nCuadros delimitadores (Bounding Boxes): Ideal para la detección básica de objetos.\nPolígonos: Permiten segmentaciones precisas, como la medición de contornos irregulares de hojas, frutas o plagas.\nPuntos y líneas: Utilizados en tareas de estimación de posiciones clave o en análisis estructural."
+  },
+  {
     "objectID": "ejecucion.html",
     "href": "ejecucion.html",
-    "title": "Ejecucion de LS",
+    "title": "Ejecución de Label Studio",
     "section": "",
     "text": "Para importar datos en Label Studio, accede a tu proyecto y selecciona la opción “Importar datos”. Luego, elige los archivos desde tu computadora o ingresa una URL donde los datos estén alojados. Si los nombres de los campos en tu archivo difieren de los que espera Label Studio, puedes configurar el mapeo de datos de manera opcional para asegurarte de que se reconozcan correctamente durante el proceso de importación.\n\n\n\n\n\n\n\nSe personaliza en función de los datos y las tareas que se deseen realizar. Por ejemplo, si estás trabajando con hojas y deseas usar selección sistemática con polígonos para etiquetar áreas específicas dentro de imágenes (por ejemplo, para marcar zonas de interés en hojas), puedes configurar Label Studio para permitir que los anotadores seleccionen áreas específicas de las imágenes usando herramientas de polígonos.\n\n\n\n\n\nLuego configura a gusto personal el etiquetado, por ejemplo"
   },
   {
     "objectID": "ejecucion.html#la-interfaz-de-etiquetado",
     "href": "ejecucion.html#la-interfaz-de-etiquetado",
-    "title": "Ejecucion de LS",
+    "title": "Ejecución de Label Studio",
     "section": "",
     "text": "Se personaliza en función de los datos y las tareas que se deseen realizar. Por ejemplo, si estás trabajando con hojas y deseas usar selección sistemática con polígonos para etiquetar áreas específicas dentro de imágenes (por ejemplo, para marcar zonas de interés en hojas), puedes configurar Label Studio para permitir que los anotadores seleccionen áreas específicas de las imágenes usando herramientas de polígonos.\n\n\n\n\n\nLuego configura a gusto personal el etiquetado, por ejemplo"
   },
@@ -89,5 +103,12 @@
     "title": "Como Instalar Label Studio",
     "section": "Una vez cargue la página aparecerá y darle un nombre al proyecto:",
     "text": "Una vez cargue la página aparecerá y darle un nombre al proyecto:"
+  },
+  {
+    "objectID": "Reco.html",
+    "href": "Reco.html",
+    "title": "Recomendaciones",
+    "section": "",
+    "text": "Propósito del Modelo\nEl propósito de un modelo de predictivo por computadora en agricultura es clasificar hojas de cultivos según su estado de salud, por ejemplo, diferenciando entre hojas sanas y enfermas. Esta clasificación permite identificar de manera temprana problemas como plagas, enfermedades o daños físicos, facilitando la toma de decisiones en la gestión de cultivos y mejorando la productividad en la agricultura de precisión.\n\n\nTécnica de Anotación Usada\nPara llevar a cabo el etiquetado de imágenes, se puede utilizar herramientas como Label Studio. Estas herramientas permiten anotar datos de manera eficiente mediante: • Polígonos: Para capturar los contornos exactos de las hojas y sus características. • Cuadros delimitadores (Bounding Boxes): Para identificar y clasificar rápidamente regiones de interés, como hojas afectadas o sanas. Estas técnicas aseguran que los datos etiquetados sean precisos y adecuados para entrenar modelos de detección y segmentación.\n\n\nMejoras en el Etiquetado\nPara obtener un modelo más robusto y preciso, se podrían aplicar las siguientes mejoras: 1. Ampliar el conjunto de datos: o Incluir un mayor número de imágenes con diferentes condiciones de iluminación, ángulos y tamaños de hojas.\no Incorporar hojas afectadas por diversas enfermedades y plagas para mejorar la capacidad de generalización del modelo.\n2. Anotar características adicionales: o Texturas: Capturar patrones específicos en la superficie de las hojas, como manchas o rugosidades.\no Bordes: Delimitar los contornos con mayor precisión para evaluar irregularidades o deformaciones.\no Tipos de daños: Etiquetar daños específicos causados por plagas o enfermedades (manchas, necrosis, perforaciones, etc.).\nEstas mejoras permitirían al modelo detectar no solo el estado de salud general de las hojas, sino también patrones específicos que ayuden a identificar la causa del problema.\n\n\nFinalidad\nLa finalidad de un modelo de predictivo en agricultura es optimizar la gestión de cultivos mediante el análisis automatizado de imágenes, permitiendo una toma de decisiones más eficiente y precisa. Este tipo de modelo se utiliza para detectar plagas y enfermedades, clasificar la salud de las plantas, y optimizar el uso de recursos como pesticidas y fertilizantes. Además, facilita la monitorización continua de grandes áreas agrícolas, mejora la productividad y contribuye a una agricultura más sostenible al reducir costos operativos y el impacto ambiental. En resumen, su propósito es aumentar la eficiencia en el manejo de cultivos y garantizar la seguridad alimentaria."
   }
 ]

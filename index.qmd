@@ -8,7 +8,7 @@ about:
 
 ::: {#me}
 
-## Clasificacion 
+## Modelos Predictivos Aplicados en la Agricultura
 
 ## Entrenamiento
 

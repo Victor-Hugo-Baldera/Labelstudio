@@ -1,5 +1,5 @@
 ---
-title: "Intoroduccion"
+title: "Introducción"
 ---
 
 Los sistemas inteligentes están transformando la agricultura moderna al integrar tecnologías avanzadas para el análisis de datos y la toma de decisiones. Herramientas como Anaconda permiten gestionar entornos de desarrollo y bibliotecas especializadas, facilitando la implementación de modelos predictivos y aplicaciones como Label Studio. Esto no solo mejora la eficiencia en el manejo de cultivos, sino que también promueve prácticas agrícolas más sostenibles y precisas, adaptadas a las necesidades actuales del sector.

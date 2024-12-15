@@ -1,5 +1,5 @@
 ---
-title: "Ejecucion de LS"
+title: "Ejecución de Label Studio"
 ---
 
 # Importar datos
@@ -24,8 +24,8 @@ Para que un modelo de **aprendizaje automático** pueda aprender a realizar tare
 
 ![](images/clipboard-3416234704.png){fig-align="center"}
 
-# Exportacion de datos 
+# Exportación de datos 
 
-Con ellos guardars las etiquetas y exportar en formatos JSON, CSV, etc.
+Con ellos guardas las etiquetas y exportar en formatos JSON, CSV, etc.
 
 ![](images/clipboard-3797540271.png){fig-align="center"}

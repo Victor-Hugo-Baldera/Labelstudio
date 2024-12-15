@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "Modelos Predictivos Aplicados en la Agricultura"
+  title: "PAD"
   navbar:
     left:
       - href: index.qmd
@@ -11,6 +11,9 @@ website:
       - projects.qmd
       - install.qmd
       - ejecucion.qmd
+      - Aplicacion.qmd
+      - Reco.qmd
+      - Refe.qmd
     tools:
       - icon: twitter
         href: https://twitter.com/
