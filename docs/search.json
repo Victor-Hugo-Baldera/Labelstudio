@@ -18,6 +18,27 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Thanks for checking out my web site!"
+    "text": "Una herramienta interactiva para etiquetar imágenes de hojas y construir modelos predictivos usando técnicas avanzadas de aprendizaje automático. Optimizado con Label Studio"
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience"
   }
 ]

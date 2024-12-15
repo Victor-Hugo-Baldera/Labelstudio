@@ -3,17 +3,19 @@ title: "About Me"
 about:
   id: me
   template: broadside
-  image: img/profile.png
+  image: images/DALL·E 2024-12-14 18.13.58 - A conceptual image of a predictive model in agriculture. The scene features a digital map of farmland with overlaying graphs and data visualizations, .webp
 ---
 
-:::{#me}
-
+::: {#me}
 ## Goals
 
 ## Education
 
 ## Experience
-
 :::
 
-Thanks for checking out my web site!
+Una herramienta interactiva para etiquetar imágenes de hojas y construir modelos
+predictivos usando técnicas avanzadas de aprendizaje automático. Optimizado con
+Label Studio
+
+![](images/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61 (1).png)
