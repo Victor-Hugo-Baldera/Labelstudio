@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Label Studio"
 about:
   id: me
   template: broadside
@@ -7,11 +7,12 @@ about:
 ---
 
 ::: {#me}
-## Goals
 
-## Education
+## Clasificacion 
 
-## Experience
+## Entrenamiento
+
+## Predicion 
 :::
 
 Una herramienta interactiva para etiquetar imágenes de hojas y construir modelos

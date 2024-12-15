@@ -1,0 +1,31 @@
+---
+title: "Ejecucion de LS"
+---
+
+# Importar datos
+
+Para importar datos en Label Studio, accede a tu proyecto y selecciona la opción "Importar datos". Luego, elige los archivos desde tu computadora o ingresa una URL donde los datos estén alojados. Si los nombres de los campos en tu archivo difieren de los que espera Label Studio, puedes configurar el mapeo de datos de manera opcional para asegurarte de que se reconozcan correctamente durante el proceso de importación.
+
+![](images/clipboard-215924715.png){fig-align="center"}
+
+## La interfaz de etiquetado
+
+Se personaliza en función de los datos y las tareas que se deseen realizar. Por ejemplo, si estás trabajando con hojas y deseas usar selección sistemática con polígonos para etiquetar áreas específicas dentro de imágenes (por ejemplo, para marcar zonas de interés en hojas), puedes configurar Label Studio para permitir que los anotadores seleccionen áreas específicas de las imágenes usando herramientas de polígonos.
+
+![](images/clipboard-1502063733.png){fig-align="center"}
+
+Luego configura a gusto personal el etiquetado, por ejemplo
+
+![](images/clipboard-2122458299.png){fig-align="center"}
+
+# Identificar características de la muestra 
+
+Para que un modelo de **aprendizaje automático** pueda aprender a realizar tareas como clasificación de imágenes, análisis de texto, o reconocimiento de voz, necesita datos etiquetados. **Label Studio** permite que los usuarios etiqueten datos de forma manual y personalizada, para que los modelos puedan aprender patrones.
+
+![](images/clipboard-3416234704.png){fig-align="center"}
+
+# Exportacion de datos 
+
+Con ellos guardars las etiquetas y exportar en formatos JSON, CSV, etc.
+
+![](images/clipboard-3797540271.png){fig-align="center"}

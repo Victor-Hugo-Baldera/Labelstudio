@@ -1,0 +1,49 @@
+---
+title: "Como Instalar Label Studio"
+---
+
+Una plataforma innovadora para clasificar imágenes de hojas y crear modelos inteligentes mediante algoritmos avanzados de aprendizaje automático. Diseñada para optimizar procesos con herramientas como Label Studio." Anaconda es una distribución de Python (también de R) que se usa para aplicaciones de ciencia de datos, aprendizaje automático e inteligencia artificial.
+
+# Pasos a seguir 
+
+## Buscar en navegador Anaconda Python
+
+![](images/WhatsApp%20Image%202024-12-14%20at%2010.54.26%20PM-01.jpeg){fig-align="center"}
+
+Puedes aceder al link : <https://www.anaconda.com/download>
+
+## Descargar el programa según el almacenamiento de tu pc y tu sistema operativo ya se Anaconda o Miniconda
+
+Posee el beneficio de facilitar la administración e implementación de paquetes. El conjunto de paquetes de "ciencia de datos" es apropiado para Windows, Linux y macOS.
+
+![](images/WhatsApp Image 2024-12-14 at 10.57.09 PM-01.jpeg){fig-align="center"}
+
+También hay una pequeña versión de arranque de Anaconda llamada Miniconda, que incluye solo conda, Python, los paquetes de los que dependen y un pequeño número de otros paquetes interesantes (Rondón, 2023).
+
+## Descomprimir el archivo y darle todo por defecto, una vez instalado ejecutar cualquiera de los 2:
+
+![](images/WhatsApp Image 2024-12-14 at 10.58.38 PM.jpeg){fig-align="center"}
+
+## Buscar en el navegador Label Studio
+
+Label Studio es un programa de código abierto para etiquetar datos que soporta varios proyectos, usuarios y tipos de datos en una única plataforma. Le facilita realizar lo siguiente: Llevar a cabo diversos tipos de etiquetado con varios formatos de información (HumanSignal, 2024).
+
+![](images/WhatsApp Image 2024-12-14 at 10.59.46 PM.jpeg){fig-align="center"}
+
+A continuación te dejo el siguiente link: <https://labelstud.io/>
+
+## Ingresar y copiar los siguientes comandos
+
+![](images/WhatsApp Image 2024-12-14 at 11.01.53 PM.jpeg){fig-align="center"}
+
+## Abrir Anaconda Powershell Prompt y ejecutar el primer comando y luego el segundo:
+
+![](images/clipboard-359129436.png)
+
+## Al ejecutar el segundo comando cargara una página web
+
+![](images/clipboard-3175079697.png)
+
+## Una vez cargue la página aparecerá y darle un nombre al proyecto:
+
+![](images/clipboard-1718199302.png)

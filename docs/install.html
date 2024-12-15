@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Label Studio – Modelos Predictivos Aplicados en la Agricultura</title>
+<title>Como Instalar Label Studio – Modelos Predictivos Aplicados en la Agricultura</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -69,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
@@ -95,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Intoroduccion</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./install.html"> 
+    <a class="nav-link active" href="./install.html" aria-current="page"> 
 <span class="menu-text">Como Instalar Label Studio</span></a>
   </li>  
   <li class="nav-item">
@@ -115,41 +116,110 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pasos-a-seguir" id="toc-pasos-a-seguir" class="nav-link active" data-scroll-target="#pasos-a-seguir">Pasos a seguir</a>
+  <ul class="collapse">
+  <li><a href="#buscar-en-navegador-anaconda-python" id="toc-buscar-en-navegador-anaconda-python" class="nav-link" data-scroll-target="#buscar-en-navegador-anaconda-python">Buscar en navegador Anaconda Python</a></li>
+  <li><a href="#descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda" id="toc-descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda" class="nav-link" data-scroll-target="#descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda">Descargar el programa según el almacenamiento de tu pc y tu sistema operativo ya se Anaconda o Miniconda</a></li>
+  <li><a href="#descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2" id="toc-descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2" class="nav-link" data-scroll-target="#descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2">Descomprimir el archivo y darle todo por defecto, una vez instalado ejecutar cualquiera de los 2:</a></li>
+  <li><a href="#buscar-en-el-navegador-label-studio" id="toc-buscar-en-el-navegador-label-studio" class="nav-link" data-scroll-target="#buscar-en-el-navegador-label-studio">Buscar en el navegador Label Studio</a></li>
+  <li><a href="#ingresar-y-copiar-los-siguientes-comandos" id="toc-ingresar-y-copiar-los-siguientes-comandos" class="nav-link" data-scroll-target="#ingresar-y-copiar-los-siguientes-comandos">Ingresar y copiar los siguientes comandos</a></li>
+  <li><a href="#abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo" id="toc-abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo" class="nav-link" data-scroll-target="#abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo">Abrir Anaconda Powershell Prompt y ejecutar el primer comando y luego el segundo:</a></li>
+  <li><a href="#al-ejecutar-el-segundo-comando-cargara-una-página-web" id="toc-al-ejecutar-el-segundo-comando-cargara-una-página-web" class="nav-link" data-scroll-target="#al-ejecutar-el-segundo-comando-cargara-una-página-web">Al ejecutar el segundo comando cargara una página web</a></li>
+  <li><a href="#una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto" id="toc-una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto" class="nav-link" data-scroll-target="#una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto">Una vez cargue la página aparecerá y darle un nombre al proyecto:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-broadside column-page">
-  <div class="about-main">
-    <div class="about-entity" style="background-image: url('images/DALL·E 2024-12-14 18.13.58 - A conceptual image of a predictive model in agriculture. The scene features a digital map of farmland with overlaying graphs and data visualizations, .webp')"></div>
-    <div class="about-contents"><header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Label Studio</h1>
+<h1 class="title">Como Instalar Label Studio</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><div id="me">
-<section id="clasificacion" class="level2">
-<h2 data-anchor-id="clasificacion">Clasificacion</h2>
-</section>
-<section id="entrenamiento" class="level2">
-<h2 data-anchor-id="entrenamiento">Entrenamiento</h2>
-</section>
-<section id="predicion" class="level2">
-<h2 data-anchor-id="predicion">Predicion</h2>
-</section>
-</div></div>
-  </div>
+  
+
+
+</header>
+
+
+<p>Una plataforma innovadora para clasificar imágenes de hojas y crear modelos inteligentes mediante algoritmos avanzados de aprendizaje automático. Diseñada para optimizar procesos con herramientas como Label Studio.” Anaconda es una distribución de Python (también de R) que se usa para aplicaciones de ciencia de datos, aprendizaje automático e inteligencia artificial.</p>
+<section id="pasos-a-seguir" class="level1">
+<h1>Pasos a seguir</h1>
+<section id="buscar-en-navegador-anaconda-python" class="level2">
+<h2 class="anchored" data-anchor-id="buscar-en-navegador-anaconda-python">Buscar en navegador Anaconda Python</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WhatsApp Image 2024-12-14 at 10.54.26 PM-01.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
 </div>
+<p>Puedes aceder al link : <a href="https://www.anaconda.com/download" class="uri">https://www.anaconda.com/download</a></p>
+</section>
+<section id="descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda" class="level2">
+<h2 class="anchored" data-anchor-id="descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda">Descargar el programa según el almacenamiento de tu pc y tu sistema operativo ya se Anaconda o Miniconda</h2>
+<p>Posee el beneficio de facilitar la administración e implementación de paquetes. El conjunto de paquetes de “ciencia de datos” es apropiado para Windows, Linux y macOS.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WhatsApp Image 2024-12-14 at 10.57.09 PM-01.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>También hay una pequeña versión de arranque de Anaconda llamada Miniconda, que incluye solo conda, Python, los paquetes de los que dependen y un pequeño número de otros paquetes interesantes (Rondón, 2023).</p>
+</section>
+<section id="descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2" class="level2">
+<h2 class="anchored" data-anchor-id="descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2">Descomprimir el archivo y darle todo por defecto, una vez instalado ejecutar cualquiera de los 2:</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WhatsApp Image 2024-12-14 at 10.58.38 PM.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="buscar-en-el-navegador-label-studio" class="level2">
+<h2 class="anchored" data-anchor-id="buscar-en-el-navegador-label-studio">Buscar en el navegador Label Studio</h2>
+<p>Label Studio es un programa de código abierto para etiquetar datos que soporta varios proyectos, usuarios y tipos de datos en una única plataforma. Le facilita realizar lo siguiente: Llevar a cabo diversos tipos de etiquetado con varios formatos de información (HumanSignal, 2024).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WhatsApp Image 2024-12-14 at 10.59.46 PM.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>A continuación te dejo el siguiente link: <a href="https://labelstud.io/" class="uri">https://labelstud.io/</a></p>
+</section>
+<section id="ingresar-y-copiar-los-siguientes-comandos" class="level2">
+<h2 class="anchored" data-anchor-id="ingresar-y-copiar-los-siguientes-comandos">Ingresar y copiar los siguientes comandos</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/WhatsApp Image 2024-12-14 at 11.01.53 PM.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo" class="level2">
+<h2 class="anchored" data-anchor-id="abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo">Abrir Anaconda Powershell Prompt y ejecutar el primer comando y luego el segundo:</h2>
+<p><img src="images/clipboard-359129436.png" class="img-fluid"></p>
+</section>
+<section id="al-ejecutar-el-segundo-comando-cargara-una-página-web" class="level2">
+<h2 class="anchored" data-anchor-id="al-ejecutar-el-segundo-comando-cargara-una-página-web">Al ejecutar el segundo comando cargara una página web</h2>
+<p><img src="images/clipboard-3175079697.png" class="img-fluid"></p>
+</section>
+<section id="una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto">Una vez cargue la página aparecerá y darle un nombre al proyecto:</h2>
+<p><img src="images/clipboard-1718199302.png" class="img-fluid"></p>
 
-<p>Una herramienta interactiva para etiquetar imágenes de hojas y construir modelos predictivos usando técnicas avanzadas de aprendizaje automático. Optimizado con Label Studio</p>
-<p><img src="images/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61 (1).png" class="img-fluid"></p>
 
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -172,6 +242,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

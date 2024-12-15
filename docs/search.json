@@ -1,44 +1,93 @@
 [
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2"
-  },
-  {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Intoroduccion",
+    "section": "",
+    "text": "Los sistemas inteligentes están transformando la agricultura moderna al integrar tecnologías avanzadas para el análisis de datos y la toma de decisiones. Herramientas como Anaconda permiten gestionar entornos de desarrollo y bibliotecas especializadas, facilitando la implementación de modelos predictivos y aplicaciones como Label Studio. Esto no solo mejora la eficiencia en el manejo de cultivos, sino que también promueve prácticas agrícolas más sostenibles y precisas, adaptadas a las necesidades actuales del sector."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Label Studio",
     "section": "",
     "text": "Una herramienta interactiva para etiquetar imágenes de hojas y construir modelos predictivos usando técnicas avanzadas de aprendizaje automático. Optimizado con Label Studio"
   },
   {
-    "objectID": "index.html#goals",
-    "href": "index.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals"
+    "objectID": "ejecucion.html",
+    "href": "ejecucion.html",
+    "title": "Ejecucion de LS",
+    "section": "",
+    "text": "Para importar datos en Label Studio, accede a tu proyecto y selecciona la opción “Importar datos”. Luego, elige los archivos desde tu computadora o ingresa una URL donde los datos estén alojados. Si los nombres de los campos en tu archivo difieren de los que espera Label Studio, puedes configurar el mapeo de datos de manera opcional para asegurarte de que se reconozcan correctamente durante el proceso de importación.\n\n\n\n\n\n\n\nSe personaliza en función de los datos y las tareas que se deseen realizar. Por ejemplo, si estás trabajando con hojas y deseas usar selección sistemática con polígonos para etiquetar áreas específicas dentro de imágenes (por ejemplo, para marcar zonas de interés en hojas), puedes configurar Label Studio para permitir que los anotadores seleccionen áreas específicas de las imágenes usando herramientas de polígonos.\n\n\n\n\n\nLuego configura a gusto personal el etiquetado, por ejemplo"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education"
+    "objectID": "ejecucion.html#la-interfaz-de-etiquetado",
+    "href": "ejecucion.html#la-interfaz-de-etiquetado",
+    "title": "Ejecucion de LS",
+    "section": "",
+    "text": "Se personaliza en función de los datos y las tareas que se deseen realizar. Por ejemplo, si estás trabajando con hojas y deseas usar selección sistemática con polígonos para etiquetar áreas específicas dentro de imágenes (por ejemplo, para marcar zonas de interés en hojas), puedes configurar Label Studio para permitir que los anotadores seleccionen áreas específicas de las imágenes usando herramientas de polígonos.\n\n\n\n\n\nLuego configura a gusto personal el etiquetado, por ejemplo"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "About Me",
-    "section": "Experience",
-    "text": "Experience"
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "Como Instalar Label Studio",
+    "section": "",
+    "text": "Una plataforma innovadora para clasificar imágenes de hojas y crear modelos inteligentes mediante algoritmos avanzados de aprendizaje automático. Diseñada para optimizar procesos con herramientas como Label Studio.” Anaconda es una distribución de Python (también de R) que se usa para aplicaciones de ciencia de datos, aprendizaje automático e inteligencia artificial."
+  },
+  {
+    "objectID": "install.html#buscar-en-navegador-anaconda-python",
+    "href": "install.html#buscar-en-navegador-anaconda-python",
+    "title": "Como Instalar Label Studio",
+    "section": "Buscar en navegador Anaconda Python",
+    "text": "Buscar en navegador Anaconda Python\n\n\n\n\n\nPuedes aceder al link : https://www.anaconda.com/download"
+  },
+  {
+    "objectID": "install.html#descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda",
+    "href": "install.html#descargar-el-programa-según-el-almacenamiento-de-tu-pc-y-tu-sistema-operativo-ya-se-anaconda-o-miniconda",
+    "title": "Como Instalar Label Studio",
+    "section": "Descargar el programa según el almacenamiento de tu pc y tu sistema operativo ya se Anaconda o Miniconda",
+    "text": "Descargar el programa según el almacenamiento de tu pc y tu sistema operativo ya se Anaconda o Miniconda\nPosee el beneficio de facilitar la administración e implementación de paquetes. El conjunto de paquetes de “ciencia de datos” es apropiado para Windows, Linux y macOS.\n\n\n\n\n\nTambién hay una pequeña versión de arranque de Anaconda llamada Miniconda, que incluye solo conda, Python, los paquetes de los que dependen y un pequeño número de otros paquetes interesantes (Rondón, 2023)."
+  },
+  {
+    "objectID": "install.html#descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2",
+    "href": "install.html#descomprimir-el-archivo-y-darle-todo-por-defecto-una-vez-instalado-ejecutar-cualquiera-de-los-2",
+    "title": "Como Instalar Label Studio",
+    "section": "Descomprimir el archivo y darle todo por defecto, una vez instalado ejecutar cualquiera de los 2:",
+    "text": "Descomprimir el archivo y darle todo por defecto, una vez instalado ejecutar cualquiera de los 2:"
+  },
+  {
+    "objectID": "install.html#buscar-en-el-navegador-label-studio",
+    "href": "install.html#buscar-en-el-navegador-label-studio",
+    "title": "Como Instalar Label Studio",
+    "section": "Buscar en el navegador Label Studio",
+    "text": "Buscar en el navegador Label Studio\nLabel Studio es un programa de código abierto para etiquetar datos que soporta varios proyectos, usuarios y tipos de datos en una única plataforma. Le facilita realizar lo siguiente: Llevar a cabo diversos tipos de etiquetado con varios formatos de información (HumanSignal, 2024).\n\n\n\n\n\nA continuación te dejo el siguiente link: https://labelstud.io/"
+  },
+  {
+    "objectID": "install.html#ingresar-y-copiar-los-siguientes-comandos",
+    "href": "install.html#ingresar-y-copiar-los-siguientes-comandos",
+    "title": "Como Instalar Label Studio",
+    "section": "Ingresar y copiar los siguientes comandos",
+    "text": "Ingresar y copiar los siguientes comandos"
+  },
+  {
+    "objectID": "install.html#abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo",
+    "href": "install.html#abrir-anaconda-powershell-prompt-y-ejecutar-el-primer-comando-y-luego-el-segundo",
+    "title": "Como Instalar Label Studio",
+    "section": "Abrir Anaconda Powershell Prompt y ejecutar el primer comando y luego el segundo:",
+    "text": "Abrir Anaconda Powershell Prompt y ejecutar el primer comando y luego el segundo:"
+  },
+  {
+    "objectID": "install.html#al-ejecutar-el-segundo-comando-cargara-una-página-web",
+    "href": "install.html#al-ejecutar-el-segundo-comando-cargara-una-página-web",
+    "title": "Como Instalar Label Studio",
+    "section": "Al ejecutar el segundo comando cargara una página web",
+    "text": "Al ejecutar el segundo comando cargara una página web"
+  },
+  {
+    "objectID": "install.html#una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto",
+    "href": "install.html#una-vez-cargue-la-página-aparecerá-y-darle-un-nombre-al-proyecto",
+    "title": "Como Instalar Label Studio",
+    "section": "Una vez cargue la página aparecerá y darle un nombre al proyecto:",
+    "text": "Una vez cargue la página aparecerá y darle un nombre al proyecto:"
   }
 ]
