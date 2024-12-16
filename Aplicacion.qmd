@@ -20,7 +20,7 @@ Las anotaciones con polígonos, elegidas en el proceso de etiquetado en platafor
 
 Este tipo de anotaciones es fundamental para lograr una mayor precisión en diversas áreas, particularmente en la agricultura de precisión, donde las decisiones informadas dependen de datos exactos y detallados.
 
-# Herramientas y Procesamiento de Datos 
+# Herramientas y Procesamiento de Datos
 
 Existen diversas herramientas que permiten la anotación precisa de imágenes para tareas de detección, segmentación y clasificación. Entre las más destacadas tenemos:
 
